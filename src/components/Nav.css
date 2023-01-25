@@ -1,0 +1,22 @@
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212121;
+    height: 100px;
+    padding: 0 20px;
+}
+.left-mark span{
+    color: white;
+    font-size: 70px;
+
+}
+.right-mark span{
+    color: white;
+    font-size: 70px;
+
+}
+.heading{
+    color: white;
+    font-size: 40px;
+}

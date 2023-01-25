@@ -1,0 +1,72 @@
+
+.receipt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+    
+    
+}
+.sheet{
+    background-color: white;
+    width:400px;
+    height: auto;
+    border: 2px solid black;
+   
+}
+.logo{
+    
+    margin: 10px;
+}
+.logo img{
+    width: 100%;
+}
+.visitor_id{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.v-id{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+.d-title{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 550;
+}
+.pass-details{
+   
+    font-size: 20px;
+    font-weight: 500;
+}
+.info{
+    
+}
+.data{
+    margin: 20px;
+}
+.button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+@page { size: 90mm 155mm } /* output size */
+    .form-data.receipt { width: 90mm; height: 155mm } /* sheet size */
+    @media print { .receipt { width: 90mm } } /* fix for Chrome */
